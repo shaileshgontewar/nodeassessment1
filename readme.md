@@ -1,4 +1,4 @@
-# What is Node.js?
+
 
 1) Node.js is an open source server environment.
 2) It runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
