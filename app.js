@@ -1,14 +1,12 @@
-const http = require('http'); // to import any other module
+const http = require('http'); 
 
-http.createServer(function(request,response){ //creating server && callback function
-    //request-access all data frontend=> backend
-    //response- whatever we r trying to send  backend => frontend
-    const jsonData = {name : "Aakriti" , age : 20 }
-    response.write("<h1> Hello I am HTML response</h1>")
-    response.write('Hello String response \n');
+http.createServer(function(request,response){ 
+   
+    const jsonData = {name : "Shailesh" , age : 24 }
+    response.write("<h1> Hello I am HTML Tag</h1>")
+   //
     response.write(JSON.stringify(jsonData));
     response.end();
 })
-.listen(4000); // port number-for every server-diff for diff server
+.listen(3000); 
 
-// Everytime we update the response we need to restart the server again.
