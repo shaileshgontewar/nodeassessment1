@@ -8,5 +8,7 @@ http.createServer(function(request,response){
     response.write(JSON.stringify(jsonData));
     response.end();
 })
+
+// port number
 .listen(3000); 
 
